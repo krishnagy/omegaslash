@@ -1,2 +1,1 @@
-# Omega Slash Website
-Deploy to GitHub Pages.
+Deploy to GitHub Pages. Enable Pages on main branch and keep CNAME.

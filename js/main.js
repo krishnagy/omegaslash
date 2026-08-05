@@ -1,1 +1,1 @@
-console.log('Omega Slash online');
+console.log('Omega Slash');
