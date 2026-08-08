@@ -1,1 +1,137 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Omega Slash</title><link rel='stylesheet' href='styles/main.css'></head><body><header><h2>Ω OMEGA SLASH</h2></header><section class='hero'><h1>Build. Explore. Evolve.</h1><p>Independent software studio.</p><a href='#'>Luna</a></section><script src='js/main.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omega Slash — Independent Software Studio</title>
+<meta name="description" content="Omega Slash builds small, local-first Android apps. No accounts, no cloud sync, no tracking — everything stays on your device.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="glyph">Ω</span> OMEGA SLASH</a>
+    <div class="nav-links">
+      <a href="#apps">Apps</a>
+      <a href="mailto:plmdeveloper05@gmail.com">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap" style="display:grid; grid-template-columns:1.1fr .9fr; gap:48px; align-items:center;">
+    <div>
+      <p class="eyebrow">Independent software studio</p>
+      <h1>
+        <span class="line">Build.</span>
+        <span class="line">Explore.</span>
+        <span class="line dim">Evolve.</span>
+      </h1>
+      <p class="lede">We make small, focused Android apps that work entirely on your device — no accounts, no cloud sync, nothing sent anywhere.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="#apps">See the apps</a>
+        <a class="btn btn-ghost" href="mailto:plmdeveloper05@gmail.com">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="loop-graphic" aria-hidden="true">
+      <svg viewBox="0 0 220 220">
+        <rect x="82" y="40" width="56" height="140" rx="10" class="loop-ring active" stroke-width="2"/>
+        <circle cx="110" cy="110" r="4" class="loop-dot"/>
+        <g class="loop-orbit">
+          <circle cx="110" cy="110" r="70" class="loop-ring"/>
+          <circle cx="110" cy="40" r="3" fill="var(--luna)"/>
+        </g>
+        <g class="loop-orbit" style="animation-duration:20s; animation-direction:reverse;">
+          <circle cx="110" cy="110" r="94" class="loop-ring"/>
+          <circle cx="110" cy="16" r="3" fill="var(--bhakti)"/>
+        </g>
+        <text x="110" y="205" text-anchor="middle" class="loop-caption">DATA STAYS ON DEVICE</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<div class="ethos">
+  <div class="wrap">
+    <span><b>No accounts</b></span>
+    <span><b>No cloud sync</b></span>
+    <span><b>No tracking</b></span>
+    <span><b>Your data stays on your device</b></span>
+  </div>
+</div>
+
+<section id="apps">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>The apps</h2>
+      <p>Every Omega Slash app is offline-first by design — each one collects nothing and sends nothing.</p>
+    </div>
+
+    <div class="apps-grid">
+
+      <article class="app-card" data-app="luna">
+        <div class="app-top">
+          <div class="app-icon">L</div>
+          <div>
+            <h3 class="app-name">Luna</h3>
+            <p class="app-category">Health &amp; Fitness</p>
+          </div>
+        </div>
+        <p class="app-desc">A simple ovulation and period tracker. Log your cycle and see predictions — all calculated and stored locally, with nothing synced to an account.</p>
+        <span class="app-badge">Local storage only</span>
+        <div class="app-actions">
+          <a class="btn btn-ghost btn-small" href="privacy-luna.html">Privacy policy</a>
+          <!-- add Play Store link once live: <a class="btn btn-primary btn-small" href="#">Get it on Play</a> -->
+        </div>
+      </article>
+
+      <article class="app-card" data-app="bhakti">
+        <div class="app-top">
+          <div class="app-icon">భ</div>
+          <div>
+            <h3 class="app-name">Bhakti Deepam</h3>
+            <p class="app-category">Lifestyle · Telugu</p>
+          </div>
+        </div>
+        <p class="app-desc">Telugu stotras and panchangam in one offline app — భక్తి దీపం keeps your daily reading and calendar available with no internet connection required.</p>
+        <span class="app-badge">Local storage only</span>
+        <div class="app-actions">
+          <a class="btn btn-ghost btn-small" href="privacy-bhakti-deepam.html">Privacy policy</a>
+          <!-- add Play Store link once live: <a class="btn btn-primary btn-small" href="#">Get it on Play</a> -->
+        </div>
+      </article>
+
+      <article class="app-card ghost">
+        <div class="app-top">
+          <div class="app-icon" style="background:transparent; border:1px dashed var(--line); color:var(--text-faint);">?</div>
+          <div>
+            <h3 class="app-name">Next up</h3>
+            <p class="app-category">In progress</p>
+          </div>
+        </div>
+        <p class="app-desc">Another small, local-first app is on the way.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">Ω OMEGA SLASH — independent software studio</div>
+    <div class="foot-links">
+      <a href="privacy-luna.html">Luna privacy</a>
+      <a href="privacy-bhakti-deepam.html">Bhakti Deepam privacy</a>
+      <a href="mailto:plmdeveloper05@gmail.com">plmdeveloper05@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
