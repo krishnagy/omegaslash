@@ -1,0 +1,9 @@
+# IAB Tech Lab Authorized Digital Sellers (app-ads.txt)
+# Luna: Period & Ovulation Tracker
+#
+# Instructions:
+# 1. Replace 'pub-0000000000000000' with your actual Google AdMob Publisher ID (found in AdMob Account -> Settings).
+# 2. Host this file at the root level of the developer website listed on your Google Play Store listing:
+#    Example: https://yourdomain.com/app-ads.txt
+
+google.com, pub-6303434658058580, DIRECT, f08c47fec0942fa0
